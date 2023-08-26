@@ -22,7 +22,7 @@ function AppWrapper() {
   return (
     <ThemeProvider theme={theme === 'light' ? lightTheme : darkTheme}>
       <GlobalStyle />
-      <BrowserRouter basename="/teamproject-frontend-1">
+      <BrowserRouter basename="/react_node_fs_68_HannaVakulenko">
         <LocalizationProvider dateAdapter={AdapterDateFns}>
           <App />
         </LocalizationProvider>
